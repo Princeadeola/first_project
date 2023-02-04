@@ -14,15 +14,7 @@ class Home extends StatelessWidget{
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          "Hello Flutter World",
-          style: TextStyle(
-            fontSize: 25.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            fontFamily: 'PlayfairDisplay',
-          ),
-        ),
+        child: Image.asset("assets/img3.jpg"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
